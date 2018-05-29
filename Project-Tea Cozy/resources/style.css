@@ -1,0 +1,156 @@
+body{
+  margin: 0;
+  font-family: Helvetica;
+  font-size: 22px;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  color: white;
+}
+/* Use this for guides */
+div{
+  /* border: 1px solid red; */
+}
+
+header{
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  margin-right: 10px;
+  background-color: black;
+}
+
+.logo img{
+  margin-left: 10px;
+  height: 50px;
+  padding: 5px;
+}
+
+header nav{
+  padding-right: 60px;
+  margin-right: 20px;
+}
+
+/* Prevent navigation bar from touching browser boundary */
+.navigation{
+  margin-right: 10px;
+}
+
+.navigation a{
+  color: white;
+}
+
+.navigation nav{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: underline;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  padding-top: 70px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.mission{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+}
+
+h2{
+  margin: 0;
+  padding-top: 10px;
+}
+
+h4{
+  padding: 0px 10px 0;
+  font-weight: bold;
+}
+
+.text{
+  text-align: center;
+  background-color: black;
+}
+
+/* Tea of the Month */
+.month{
+  padding-top: 50px;
+  width: 1200px;
+}
+.menu{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* justify-content: space-between; */
+  align-content: center;
+}
+
+#img{
+  margin: 10px;
+}
+
+#img img{
+  height: 200px;
+  width: 300px;
+}
+
+/* Location section */
+.locContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  background-size: cover;
+}
+
+.title{
+  padding-bottom: 15px;
+}
+
+#cards{
+  background-color: black;
+  opacity: .85;
+  width: 300px;
+  margin: 0 40px 0 40px;
+}
+.adress{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  justify-content: center;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  width: 100%;
+}
+
+footer a{
+  color: white;
+  text-decoration: none;
+}
+.copyright{
+  display: inline-block;
+  text-align: left;
+  padding-left:20px;
+  margin: 0;
+}
